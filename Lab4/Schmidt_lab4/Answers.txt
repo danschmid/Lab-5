@@ -1,0 +1,28 @@
+Daniel Schmidt
+
+1. I used "background-color:red;" under a new class "#div1" that only affected the first division
+
+2. Changing margin affects the space between divisions and padding affects the size/thickness of
+	the div (how close the text is to the wall)
+
+3. when the margin is over 100px, the box moves farther away from the rest.
+	when padding is over 100px the box gets really big
+
+4. when the contents of the border overflow the edges, scroll gives you a scrollbar 
+	to see the rest of it while hidden does not allow you to see it
+
+5. float left puts the boxes at the top left of the screen listed from left to right
+	float right puts the boxes at the top right, listed from right to left
+
+6. float left on any individual div puts only that box on the left of the screen.  
+	- clear:right on div1 does nothing
+	- clear:right on div2 yields:  1
+				     2 3
+	
+	-clear:right on div 3 yields: 2 1
+				        3
+7. to create a 1 2 combination, all divs must be float:left and div 3 must be clear:left
+	       3
+
+8. It takes away the space between the divs and the side of the page
+

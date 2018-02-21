@@ -1,0 +1,75 @@
+/* Daniel Schmidt*/
+
+div {
+    border: 2px solid white;
+    color: white;
+    height: 181px;
+    width: 20%;
+}
+
+header{
+	font-size:200%;
+	color: white;
+	margin-bottom: 15px;
+}
+
+a:hover{
+	color:black;
+}
+
+
+body{
+	margin-top: 10px;
+	background-color: black;
+}
+
+#divmenu{
+	border-radius: 5px;
+	position: fixed;
+}
+
+#divmain{
+	border-radius: 5px;
+	background-color: black;
+	overflow: scroll;
+	vertical-align: top;
+	float: right;
+	margin-top: auto;
+	margin-left: 0px;
+	clear: right;
+	height: 800px;
+	width: 79%;
+}
+
+#div1 {
+	border-radius: 5px;
+	background-color: grey;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: : 5px;
+    border: 2px groove white;
+    height: 25px;
+    width: 95%;
+}
+
+#div2 {
+	display: inline-block;
+	float: left;
+	border-radius: 5px;
+	background-color: grey;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: : 5px;
+    border: 2px groove white;
+    height: 25px;
+    width: 169px;
+
+p{
+	color: white;
+	padding-bottom: 115px;
+	margin-left: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
